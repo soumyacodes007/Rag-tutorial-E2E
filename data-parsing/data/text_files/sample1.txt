@@ -1,0 +1,15 @@
+Retrieval-Augmented Generation (RAG) is an advanced AI architecture that combines
+information retrieval with natural language generation. Instead of relying solely on a model’s
+pre-trained knowledge, RAG systems fetch relevant documents from an external knowledge base
+and use them to generate more accurate and context-aware responses.
+
+This approach is particularly useful in domains where information changes frequently, such as
+finance, healthcare, or technical documentation. By retrieving up-to-date documents, RAG systems
+can provide answers that reflect the latest available knowledge rather than outdated training data.
+
+The typical pipeline of a RAG system involves document ingestion, text chunking, embedding generation,
+vector storage, and retrieval at query time. When a user asks a question, the system searches for
+relevant chunks using similarity search and feeds them into a language model as context.
+
+RAG is widely used in building chatbots, question-answering systems, and enterprise knowledge assistants.
+It significantly improves factual accuracy, reduces hallucinations, and allows customization using private data.

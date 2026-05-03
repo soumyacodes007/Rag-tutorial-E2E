@@ -1,0 +1,16 @@
+Vector databases play a crucial role in modern AI applications, especially in systems like
+Retrieval-Augmented Generation. These databases store embeddings, which are numerical representations
+of text, images, or other data types, enabling efficient similarity search.
+
+When text is processed through an embedding model, it gets converted into a high-dimensional vector.
+These vectors capture semantic meaning, allowing systems to find similar content even if the wording differs.
+For example, "How to learn AI?" and "Ways to study artificial intelligence" may have very similar embeddings.
+
+Popular vector databases include FAISS, Pinecone, and Weaviate. They support operations like nearest neighbor
+search, filtering, and indexing, making them highly efficient for large-scale applications.
+
+In a typical workflow, documents are first split into chunks, then converted into embeddings, and stored in a
+vector database. At query time, the user's input is also embedded, and the system retrieves the most similar
+chunks to provide relevant context to the language model.
+
+This architecture enables scalable, fast, and accurate retrieval, forming the backbone of many intelligent systems today.
