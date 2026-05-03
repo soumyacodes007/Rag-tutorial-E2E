@@ -1,0 +1,9 @@
+langchain
+langchain-groq
+faiss-cpu
+
+tiktoken
+chromadb
+pypdf
+langchain-community
+python-dotenv
